@@ -36,7 +36,7 @@ body {
   margin-bottom: 3vh;
 }
 
-#content {
+.content {
   padding-top: 5vh;
   padding-left: 3vh;
   width: 75vw;
