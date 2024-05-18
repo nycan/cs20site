@@ -41,3 +41,8 @@ body {
   padding-left: 3vh;
   width: 75vw;
 }
+
+canvas {
+  margin-bottom: 5vh;
+  outline: black 0.5vh solid;
+}

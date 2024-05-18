@@ -57,6 +57,8 @@ function drawTriangle(){
 }
 
 function newTriangle(){
+    canvas.clearRect(0, 0, width, height);
+    canvas.beginPath();
     while(!createTriangle());
     drawTriangle();
 }
