@@ -57,10 +57,15 @@ function drawTriangle(){
 }
 
 function newTriangle(){
+    document.getElementById("buy-alert").innerHTML = "";
     canvas.clearRect(0, 0, width, height);
     canvas.beginPath();
     while(!createTriangle());
     drawTriangle();
+}
+
+function showStock(){
+    document.getElementById("buy-alert").innerHTML = "Sorry, this product is currently out of stock.";
 }
 
 newTriangle();
