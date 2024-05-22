@@ -47,3 +47,7 @@ canvas {
   margin-top: 3vh;
   outline: black 0.5vh solid;
 }
+
+ul {
+  list-style-type: none;
+}
